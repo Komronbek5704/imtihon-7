@@ -1,0 +1,132 @@
+.goback {
+    padding-top: 50px;
+    padding-left: 80px;
+    color: rgb(13, 38, 18);
+    font-family: Readex Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.link {
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+
+}
+
+.cartHeader h2 {
+    color: rgb(13, 38, 18);
+    font-family: Hammersmith One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-bottom: 70px;
+
+}
+
+.line {
+    margin-left: 80px;
+    margin-top: 60px;
+
+}
+
+.carttext {
+    display: flex;
+    margin-left: 80px;
+}
+
+.product {
+    padding-left: 43px;
+}
+
+.quantity {
+    padding-left: 270px;
+}
+
+.price {
+    padding-left: 150px;
+}
+
+.cartImg {
+    width: 155px;
+    height: 155px;
+    border-radius: 1px solid rgb(244, 244, 244);
+}
+
+.productsContainerMain {
+    display: flex;
+    gap: 100px;
+}
+
+.productContainer {
+    display: flex;
+    padding-left: 123px;
+    padding-top: 36px;
+    gap: 36px;
+    max-width: 890px;
+}
+
+.total {
+    color: rgb(13, 38, 18);
+    font-family: Hammersmith One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.totalpriceContainer p {
+    color: rgb(25, 13, 38);
+    font-family: Readex Pro;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.totalpriceContainer {
+    width: 400px;
+    height: 300px;
+
+}
+
+.productName {
+    color: rgb(13, 38, 18);
+    font-family: Hammersmith One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.proructprice {
+    color: rgb(13, 38, 18);
+    font-family: Readex Pro;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 120px;
+}
+
+.productDescription {
+    color: rgb(25, 13, 38);
+    font-family: Readex Pro;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+}

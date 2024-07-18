@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+.cartCount {
+  border-radius: 50%;
+  font-size: 1.2rem;
+  color: white;
+  min-width: 10px;
+  min-height: 10px;
+  padding: 0.2em 0.6em;
+  display: grid;
+  place-items: center;
+  left: 60%;
+  bottom: 70%;
+
+}
+
+.grid {
+  display: grid;
+  grid-template: 600px / 300px 300px 300px;
+  gap: 36px;
+  max-width: 1100px;
+  padding-left: 60px;
+}
+
+.container {
+  display: flex;
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+.colorsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 25rem;
+}
+
+.color {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 1px solid;
+  cursor: pointer;
+  outline-offset: 0.1em;
+}
+
+.loading {
+  color: rgb(11, 164, 45);
+  margin-top: 40px;
+  margin-left: 400px;
+
+  font-family: Inter;
+  font-size: 22px;
+
+
+
+  .ratingStars {
+    display: flex;
+    align-items: center;
+    width: 10px;
+  }
+
+  .filled {
+    color: gold;
+  }
+
+  .empty {
+    color: lightgray;
+  }
+
+
+}
+
+.filterTitle {
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.filterTitle h2 {
+  width: 130px;
+  height: 21px;
+
+  color: rgb(25, 13, 38);
+  font-family: Hammersmith One;
+}
+
+.filterTitle img {
+  width: 24px;
+  height: 24px;
+  margin-left: 100px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 1.5rem;
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(11, 164, 45);
+  border-radius: 5px;
+  margin-bottom: 21px;
+}
+
+.checkbox label {
+  font-size: 18px;
+  text-align: left;
+}
+
+.filterContainer button {
+  width: 182px;
+  height: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 53px 16px 53px;
+  flex: none;
+  color: white;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+  border-radius: 10px;
+  background: rgb(11, 164, 45);
+  border: none;
+
+}
+
+.conectivity {
+  padding-top: 40px;
+}
+
+.conectivity input {
+  box-sizing: border-box;
+  border: 2px solid rgb(11, 164, 45);
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+
+}
+
+.conectivity li {
+  padding-top: 20px;
+  color: rgb(25, 13, 38);
+  font-family: Readex Pro;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.line {
+
+  width: 270px;
+  height: 0;
+  left: 73px;
+  top: 886px;
+}
+
+.hero {
+  background-image: url(../../public/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+
+.heroImg {
+  width: 189px;
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 117px;
+}
+
+.heroNav ul {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  gap: 40px;
+  padding-left: 300px;
+  padding-top: 50px;
+}
+
+.herolink {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 150px;
+  gap: 45px;
+
+
+
+}
+
+.herolink img {
+  width: 18.06px;
+  height: 18.06px;
+}
+
+.hero2 {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 1100px;
+  margin-top: 40px;
+  height: 85px;
+  background: rgb(213, 248, 207);
+}
+
+.hero2 h1 {
+  color: rgb(11, 164, 45);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding-left: 75px;
+}
+
+.hero2 button {
+  background-color: rgb(11, 164, 45);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.colors {
+  margin-top: 30px;
+}
+
+.colors button {
+  width: 182px;
+  height: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 53px 16px 53px;
+  flex: none;
+  color: white;
+  order: 1;
+  flex-grow: 0;
+  margin: 16px 0px;
+  border-radius: 10px;
+  background: rgb(11, 164, 45);
+  border: none;
+
+}
+
+.productsContainer {
+  background: rgb(245, 245, 245);
+}

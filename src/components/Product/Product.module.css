@@ -1,0 +1,118 @@
+.link {
+    font-family: Readex Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    padding-left: 95px;
+    text-decoration: none;
+    color: rgb(69, 68, 68);
+
+}
+
+.goback {
+    margin-left: 95px;
+    padding-top: 20px;
+
+}
+
+.productImg {
+    border: 1px solid rgb(244, 244, 244);
+    ;
+    width: 700px;
+    height: 600px;
+    background: rgb(244, 244, 244);
+}
+
+.productMain {
+    padding-top: 50px;
+    display: flex;
+    padding-left: 80px;
+    gap: 50px;
+}
+
+.ratingStars {
+    display: flex;
+    align-items: center;
+    width: 10px;
+}
+
+.filled {
+    color: gold;
+}
+
+.empty {
+    color: lightgray;
+}
+
+.line {
+    position: absolute;
+    width: 520px;
+    border: 2px dashed rgb(106, 105, 105);
+
+}
+
+.path {
+    padding-left: 80px;
+    padding-top: 30px;
+    font-family: Readex Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.colors {
+    display: flex;
+    gap: 1em;
+    padding-top: 21px;
+    padding-bottom: 36px;
+
+    .color {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        border: 1px solid;
+    }
+}
+
+.description {
+    color: rgb(25, 13, 38);
+    font-family: Readex Pro;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.price {
+    color: rgb(25, 13, 38);
+    font-family: Readex Pro;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.reviews {
+
+    align-items: left;
+    width: 200px;
+    margin-bottom: 27px;
+}
+
+.colorName {
+    color: rgb(14, 2, 12);
+    font-family: Readex Pro;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+}
